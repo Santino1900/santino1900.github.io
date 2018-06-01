@@ -1,0 +1,22 @@
+.titolo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kavivanar', cursive;
+    color: darkorange
+}
+
+h1.titolo {
+    font-size: 34px;
+    text-decoration: underline
+}
+
+form label {
+    width: 100px;
+    dispaly: inline-block;
+}
+
+.box {
+    border: 2px solid red;
+}
