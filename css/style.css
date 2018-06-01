@@ -20,3 +20,22 @@ form label {
 .box {
     border: 2px solid red;
 }
+
+.bottone {
+    border: 1px solid gray;
+    background-color: red;
+    color: aliceblue;
+    transition: all 1s ease-out;
+}
+
+.bottone:hover {
+    background-color: blue;
+    color: antiquewhite;
+    cursor: move;
+}
+
+.bottone_large {
+    width: 30px;
+    font-size: 20px;
+    color: darkorange;
+}
