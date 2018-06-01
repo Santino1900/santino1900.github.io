@@ -1,42 +1,7 @@
-.titolo {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Kavivanar', cursive;
-    color: darkorange
+.navbar {
+    margin-bottom: 40px;
 }
 
-h1.titolo {
-    font-size: 34px;
-    text-decoration: underline
-}
-
-.box {
-    border: 2px solid red;
-}
-
-.bottone {
-    border: 1px solid gray;
-    background-color: red;
-    color: aliceblue;
-    transition: all 1s ease-out;
-}
-
-.bottone:hover {
-    background-color: blue;
-    color: antiquewhite;
-    cursor: move;
-}
-
-.bottone_large {
-    width: 30px;
-    font-size: 20px;
-    color: darkorange;
-}
-
-@media(max-width:600px) {
-    body {
-        background-color: red;
-    }
+.navbar .active .nav-link {
+    cursor: default !important;
 }
